@@ -71,6 +71,12 @@ export default function Header() {
                 </Link>
               </li>
 
+              <li>
+                <Link href="/name" className="">
+                  Name
+                </Link>
+              </li>
+
               <li className="sm:before:w-[1px] sm:before:bg-gray-100 before:block flex sm:gap-4 md:gap-6">
                 <Link
                   className="rounded-full flex gap-2 items-center bg-black hover:bg-red-500 focus:bg-cyan-500 p-1 sm:py-3 sm:px-6 text-white transition-colors duration-200"
